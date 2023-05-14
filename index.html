@@ -1,7 +1,46 @@
 <!DOCTYPE html>
 <html>
+  <head>
+  <meta name="viewport" content="width=device-width">
+
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+    </head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <div id="wrapper">
+    <object id="svgholder" data="Domino.svg" type="image/svg+xml"></object>
+    <div id="headline">
+    <h2>
+      This is a headline
+    </h2>
+    <p id="byline">
+      By TKKTK
+    </p>
+  </div>
+  <div id ='wrapper-counter'>
+  <p id="counter"><span id="num-changing">0</span>dogs found! </p>
+</div>
+  </div>  
+    <!-- <script>
+      let width = window.innerWidth
+      console.log(width)
+
+      circles = document.querySelectorAll('circle')
+      circles.forEach(element => {
+        console.log(element)
+        element.style.fill='transparent'
+        element.addEventListener("click", function(){
+          console.log(this)
+          this.classList.add('active')
+        });  
+
+      });
+     -->
 </body>
+<script src="main.js"></script>
+
+<style>
+
+</style>
 </html>
