@@ -12,16 +12,16 @@ html, body { margin:0; padding:0;  }
 }
 #headline{
   position:absolute;
-  top: 10%;
+  top: 6%;
   width:100%;
   text-align:center;
   font-family: 'Inter', sans-serif;
   font-size:22px;
-  color:green
+  color:rgb(11, 0, 128)
 }
 
 #byline{
-  color:blue
+  color:rgb(203, 237, 232)
 }
 .active{
         stroke-opacity: 1;
@@ -31,7 +31,7 @@ html, body { margin:0; padding:0;  }
 #wrapper-counter{
     position:absolute;
     top:90%;
-    right:0%;
+    right:7%;
     background-color:white;
 }
 svg circle{
