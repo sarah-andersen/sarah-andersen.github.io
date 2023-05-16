@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
 
 html, body { margin:0; padding:0;  }
 
@@ -12,16 +14,31 @@ html, body { margin:0; padding:0;  }
 }
 #headline{
   position:absolute;
-  top: 6%;
+  top: 3%;
   width:100%;
   text-align:center;
-  font-family: 'Inter', sans-serif;
-  font-size:22px;
-  color:rgb(11, 0, 128)
+  font-family: 'Song Myung';
+  font-size: 37px;
+  line-height: 0.5em;
+  color:rgb(5, 0, 57);
+
+}
+
+#subhead{
+  color:rgb(5, 0, 57);
+  font-family: 'Inter', serif;
+  font-size: 20px;
+  text-shadow: 0px 0px 0 transparent;
 }
 
 #byline{
-  color:rgb(203, 237, 232)
+  color:rgb(5, 0, 57);
+  font-family: 'Inter', serif;
+  font-size: 14px;
+  text-shadow: 0px 0px 0 transparent;
+  line-height: 3em;
+
+  
 }
 .active{
         stroke-opacity: 1;
@@ -29,15 +46,39 @@ html, body { margin:0; padding:0;  }
         stroke-width:5px;
 }
 #wrapper-counter{
-    position:absolute;
-    top:90%;
-    right:7%;
+
+  
+    position: fixed;
+    top:7%;
+    right:10%;
     background-color:white;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+    line-height: 0em;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+
+    text-align: center;
+    font-family: 'Song Myung';
+    font-size: 55px;
+    color: rgb(15, 0, 61);
+    text-shadow: none;
+=}
+
+#name-counter{
+  font-size: 15px;
+  font-family: 'Inter', serif;
+
 }
+
 svg circle{
 }
-@media (max-width: 700px) {
+@media (max-width: 1100px) {
         h2{
-          font-size: 14px;
+          font-size: 34px;
         }
+
 }
+
