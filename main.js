@@ -6,7 +6,7 @@ let svgholder = document.getElementById("svgholder");
 let CounterObject = document.getElementById("num-changing")
 let CounterValue = 0
 
-// create empty list in which I'll put ids of stuff I have clicked on
+const ListCircles = [];
 
 svgholder.addEventListener('load', function()
 {
@@ -16,20 +16,22 @@ svgholder.addEventListener('load', function()
   element.style.fill='transparent'
   element.style.strokeColor = 'transparent'
   element.addEventListener("click", function(){
-    this.style.stroke = 'red'
-    this.style.strokeWidth = '5px'
-    CounterValue = CounterValue+1
-    console.log(CounterValue)
-    CounterObject.textContent = CounterValue
 
-// every time I click, I add to the list the id of the thing I clicked
-        // check if element id is in list of ids
-            // if not, counter + 1
-                // document getElement by Id .text - > counter
-            // if it is counter doesn't move
-            //Set
+    if(!(ListCircles.includes(element.id))) {
+      this.style.stroke = 'red'
+      this.style.strokeWidth = '5px'
+      CounterValue = CounterValue+1
+      CounterObject.textContent = CounterValue
+      ListCircles.push(element.id)
+    }
+
+  let Congrats = document.getElementById("congrats");
+
+    if(CounterValue === 20) {
+      Congrats.style.visibility = "visible"
+    }
+         
   });  
 });
-// end if counter == 15
-// alert (display none or visibility but not opacity)
+
 })
