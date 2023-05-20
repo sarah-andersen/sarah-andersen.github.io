@@ -27,7 +27,7 @@ svgholder.addEventListener('load', function()
 
   let Congrats = document.getElementById("congrats");
 
-    if(CounterValue === 2) {
+    if(CounterValue === 20) {
       Congrats.style.visibility = "visible"
     }
          
