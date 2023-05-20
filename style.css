@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 
 html, body { margin:0; padding:0;  }
 
@@ -18,11 +20,10 @@ html, body { margin:0; padding:0;  }
   width:100%;
 
   text-align:center;
-  font-family: 'Song Myung';
-  font-size: 37px;
+  font-family: 'Carter One';
+  font-size: 25px;
   line-height: 0.5em;
   color:rgb(5, 0, 57);
-
 }
 
 #subhead{
@@ -33,14 +34,13 @@ html, body { margin:0; padding:0;  }
 }
 
 #byline{
-  color:rgb(5, 0, 57);
+  color:rgb(217, 241, 240);
   font-family: 'Inter', serif;
-  font-size: 14px;
+  font-size: 12px;
   text-shadow: 0px 0px 0 transparent;
-  line-height: 3em;
-
-  
+  line-height: 1em;  
 }
+
 .active{
         stroke-opacity: 1;
         stroke: red !important;
@@ -48,10 +48,14 @@ html, body { margin:0; padding:0;  }
 }
 #wrapper-counter{
 
-  
     position: fixed;
     top:7%;
     right:10%;
+    text-align: center;
+    font-family: 'Carter One';
+    font-size: 35px;
+    color:rgb(5, 0, 57);
+
     background-color:white;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
     line-height: 0em;
@@ -60,18 +64,12 @@ html, body { margin:0; padding:0;  }
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 5px;
-
-    text-align: center;
-    font-family: 'Song Myung';
-    font-size: 55px;
-    color: rgb(15, 0, 61);
-    text-shadow: none;
 }
 
 #name-counter{
-  font-size: 15px;
+  color:rgb(5, 0, 57);
   font-family: 'Inter', serif;
-
+  font-size: 17px;
 }
 
 svg-circle{
@@ -87,29 +85,47 @@ svg-circle{
 }
 
 a:link {
-  color: rgb(15, 0, 61);
+  color:rgb(217, 241, 240);
 }
 
 a:visited {
-  color: rgb(15, 0, 61);
+  color:rgb(217, 241, 240);
 }
 
 a:hover {
-  color:white
+  color:rgb(5, 0, 57);
 }
 
 a:active {
-  color:rgb(0, 225, 255)
+  color:rgb(0, 237, 241)
 }
 
 #congrats{
 position: fixed;
-top:7%;
+top:40%;
+left:40%;
 background-color:white;
 box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
-text-align: center;
-font-family: 'Song Myung';
-font-size: 55px;
-color: rgb(15, 0, 61);
+line-height: 0em;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-left: 15px;
+padding-right: 15px;
+border-radius: 5px;
 visibility:hidden
+}
+
+#congrats-head{
+text-align: center;
+font-family: 'Carter One';
+font-size: 35px;
+color: rgb(15, 0, 61);
+}
+
+#congrats-subhead{
+  color:rgb(5, 0, 57);
+  font-family: 'Inter', serif;
+  font-size: 20px;
+  text-shadow: 0px 0px 0 transparent;
+  text-align: center;
 }
