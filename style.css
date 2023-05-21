@@ -42,8 +42,9 @@ html, body { margin:0; padding:0;  }
 }
 
 .active{
+        background-color: yellow;
         stroke-opacity: 1;
-        stroke: red !important;
+        stroke: yellow !important;
         stroke-width:5px;
 }
 #wrapper-counter{
@@ -70,18 +71,6 @@ html, body { margin:0; padding:0;  }
   color:rgb(5, 0, 57);
   font-family: 'Inter', serif;
   font-size: 17px;
-}
-
-svg-circle{
-}
-@media (max-width: 700px) {
-        h2{
-          font-size: 26px;
-        }
-        h3{
-          font-size: 15px;
-        }
-
 }
 
 a:link {
@@ -128,4 +117,68 @@ color: rgb(15, 0, 61);
   font-size: 20px;
   text-shadow: 0px 0px 0 transparent;
   text-align: center;
+}
+
+
+svg-circle{
+}
+
+@media (max-width: 1100px) {
+  h2{
+    font-size: 24px;
+  }
+  p{
+    font-size: 14px;
+  }
+  #name-counter{
+    font-size: 14px;
+  }
+  #byline{
+    font-size: 8.5px;
+  }
+  #wrapper-counter{
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+  }
+  #congrats{
+    top:30%;
+    left:35%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+  }
+  #congrats-head{
+    font-size: 24px;
+  }
+  #congrats-subhead{
+    font-size: 14px;  
+}
+
+@media (max-width: 700px) {
+  h2{
+    font-size: 20px;
+  }
+  p{
+    font-size: 10px;
+  }
+  #name-counter{
+    font-size: 8px;
+  }
+  #byline{
+    font-size: 6px;
+  }
+  #congrats{
+    top:25%;
+    left:30%;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 1.5px;
+  }
+  #congrats-head{
+    font-size: 20px;
+  }
+  #congrats-subhead{
+    font-size: 8px;  
+
 }
